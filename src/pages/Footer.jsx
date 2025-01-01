@@ -13,7 +13,14 @@ const Footer = () =>{
                 <p>+91 7025099458</p>
             </div>
             <div className='w-[60%] flex items-center justify-between max-sm:flex-col max-sm:justify-center'>
+                <a
+              href="https://wa.me/919544121458?text=Hello!%20I%20would%20like%20to%20see%20your%20works."
+              target="_blank"
+              rel="noopener noreferrer"
+            
+            >
                 <button className='bg-[#239b56] text-white w-[8vw] h-[7vh] max-sm:w-[30vw] rounded-lg hover:bg-white hover:text-[#239b56] border-2 border-[#239b56] transition duration-300'>Whatsapp</button>
+                </a>
                 <p className='text-white max-sm:text-[10px]'>Connect with us for more details</p>
             </div>
         </div>
